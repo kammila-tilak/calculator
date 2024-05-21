@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+}
+
+.heading{
+    justify-content: center;
+    margin-bottom: 40rem;
+    display: inline-flex;
+    position: absolute;
+    margin-top: 6rem;
+    
+}
+
+.heading h1{
+    font-weight: 900;
+    color: #f2f2f2;
+    font-size: 45px;
+    letter-spacing: .3rem;
+    font-family: "Archivo Black", sans-serif;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #2776a7;
+    position: relative;
+}
+
+.container{
+    width: 45%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 9px;
+    background:  #62b6cb;
+    /* background: #3a6ea5; */
+     box-shadow: 10px 11px  #3597bd;
+}
+
+.display #screen1{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5rem;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #e2e2e2
+                inset -8px -8px -8px rgb(220, 220, 220);
+}
+
+.btns{
+    width: 100%;
+    margin-top: 1.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.btns .rows button {
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    background: #bee9e8;
+    color: rgb(89, 33, 33);
+    box-shadow: 5px 5px 8px #00000020;
+    transition: 0.2s ease;
+}
+
+.btns .rows button:hover {
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+                inset -5px -5px 8px #ffff;
+    background: #ffff;
+}
+
+
+#eval{
+    background: #27ff84;
+    box-shadow: inset 5px 5px 8px rgba(4, 4, 4, 0.1),
+                inset -5px -5px 8px #4bf6b1;
+}
+
+#eval:hover{
+    box-shadow: inset 5px 5px 8px rgba(60, 255, 141, 0.1),
+                inset -5px -5px 8px #7afa81;
+}
+
+#ac{
+    background: #ff3434;
+    box-shadow: inset 5px 5px 8px rgba(255, 0, 0, 0),
+                inset -5px -5px 8px #f53939;
+}
+
+#ac:hover{
+    box-shadow: inset 5px 5px 9px rgba(8, 216, 231, 0),
+                inset -5px -5px 8px #ff7c7c;
+}
+
+#ce{
+    background: #436ffd;
+    box-shadow: inset 5px 5px 8px rgba(4, 4, 4, 0.1),
+                inset -5px -5px 8px #337aff;
+}
+
+#ce:hover{
+    box-shadow: inset 5px 5px 8px rgba(60, 255, 141, 0.1),
+                inset -5px -5px 8px #778cf4;
+}
+
+@media(max-width: 500px){
+    .rows button{
+        font-size: 50rem;
+    }
+}
